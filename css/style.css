@@ -1,7 +1,32 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #292929;
+  font-size: 16px;
+  background-image: #fff url(images/bloc-logo.png) no-repeat top center;
+  background-image: #fff url(images/instagram-pic.png) no-repeat top center;
 }
+
+h1 {
+  font-size: 3em;
+  line-height: 2em;
+}
+
+
+h3 {
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+p {
+  line-height: 2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover { color:#0070BC; }
+
 
 nav {
   background-color: rgba(0,0,0,.5);
@@ -49,4 +74,5 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+  background-image: #fff url(images/instagram-pic.png) no-repeat top center;
 }
